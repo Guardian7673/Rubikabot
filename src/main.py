@@ -1,9 +1,9 @@
-from auth import RubikaAuth
+from src.auth import RubikaAuth
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from extractor import DataExtractor
-from analyzer import analyze
+from src.extractor import DataExtractor
+from src.analyzer import analyze
 import tkinter as tk
 import pandas
 import json
